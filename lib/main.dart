@@ -16,8 +16,16 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.purple[600],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/Tangled Fan Art_ Rapunzel.jfif'),
+        child: IconButton(
+          onPressed: () {
+            print("clicked");
+          },
+          icon: Icon(
+            Icons.favorite,
+            color: Colors.purple[400],
+            size: 24.0,
+            semanticLabel: 'Text to announce in accessibility modes',
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
