@@ -16,9 +16,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.purple[600],
       ),
       body: Center(
-        child: Text(
-          "HI Abi",
-          style: TextStyle(fontSize: 35.0, fontFamily: 'IndieFlower'),
+        child: Image(
+          image: AssetImage('assets/Tangled Fan Art_ Rapunzel.jfif'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
